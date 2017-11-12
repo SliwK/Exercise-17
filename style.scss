@@ -1,0 +1,20 @@
+
+$head_foot_color: #313332;
+$hover_color: #02C7E5;
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+}
+
+@import 'grid';
+@import "header_hero";
+@import 'threeicons';
+@import 'features';
+@import 'gallery';
+@import 'team';
+@import 'withpicture';
+@import 'numbers';
+@import 'footer';
+@import 'media';

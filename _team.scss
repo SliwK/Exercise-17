@@ -1,0 +1,72 @@
+/*Section : Persons */
+
+.team  {
+							@extend .container;
+							margin: 50px auto;
+							[class^="person"] {
+																border-radius: 50%;
+																background-size: cover;
+																background-position: center;
+																height: 150px;
+																margin: 0 auto;
+																overflow: hidden;
+																width: 150px;
+							}
+							.name {
+										color: black;
+										font-size: 20px;
+										margin: 0;
+							}
+}
+
+.per {
+		.fa {
+					background-color: rgba(0,0,0,0.5);
+					color: rgba(0,0,0,0);
+					height: 100%;
+					margin: 0;
+					padding: 0;
+					visibility: hidden;
+					width: 100%;
+		}
+		.position {
+			.function {
+								border-radius: 5px;
+								color: white;
+								font-size: 15px;
+								height: 150px;
+								margin: 0;
+								padding: 0;
+								position: relative;
+								text-align: center;
+								top: -75px;
+								visibility: hidden;
+								width: 150px;
+			}
+		}
+		&:hover {
+			&> .fa {
+										visibility: visible;
+			}
+			&> .position .function {
+														visibility: visible;
+			}
+		}
+	}
+
+
+.person-1 {
+	background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=1050&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+}
+
+.person-2 {
+	background-image: url(https://images.unsplash.com/photo-1495147334217-fcb3445babd5?w=1051&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D	);
+}
+
+.person-3 {
+	background-image: url(https://images.unsplash.com/photo-1474176857210-7287d38d27c6?w=1050&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+}
+
+.person-4 {
+	background-image: url(https://images.unsplash.com/photo-1498529605908-f357a9af7bf5?w=1050&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+}

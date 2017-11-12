@@ -1,0 +1,19 @@
+/*Section  : Numbers */
+
+.numbers {
+	@extend .container;
+	margin: 50px auto;
+	height: 200px;
+	position: relative;
+	top: 50%;
+	h1 {
+		font-family: 'Merriweather Sans', sans-serif;
+		font-size: 80px;
+		font-weight: bolder;
+		margin: 20px 0 0 0;
+	}
+	p {
+		color: #02C7E5;
+		margin: 0;
+	}
+}

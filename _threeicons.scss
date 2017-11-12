@@ -1,0 +1,44 @@
+/* Section : Three icons */
+
+.three-icons {
+		.container {
+			margin: 0 auto;
+			margin: 50px auto;
+			max-width: 1200px;
+			width: 100%;
+			[class^="col-"] {
+					p {
+						color: black;
+						margin: 0 auto;
+						padding: 0 10px;
+						&:nth-child(3) {
+							color: #BDBDBD;
+						}
+						&:nth-child(2) {
+							font-size: 25px;
+							font-weight: bolder;
+						}
+					}
+			}
+		}
+
+}
+
+.fa-icon {
+		.fa {
+				background-color: black;
+				border-radius: 15px;
+				font-size: 70px;
+				height: 90px;
+				line-height: 90px;
+				margin: 0;
+				padding: 0;
+				width: 90px;
+				&:hover {
+					background-color: $hover_color;
+				}
+				&:hover + p {
+					color: $hover_color;
+				}
+		}
+}

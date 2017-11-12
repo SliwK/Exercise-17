@@ -1,0 +1,64 @@
+/* Footer */
+
+footer {
+	background-color: $head_foot_color;
+	color: #ffffff;
+	height: 280px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	h1 {
+		position: relative;
+		text-align: left;
+		&:after {
+			content: " ";
+			background-color: white;
+			height: 2px;
+			margin-left:5px;
+			position: absolute;
+			top: 50%;
+			width: 100px;
+		}
+	}
+	[class^="col"] div {
+		margin: 0 auto;
+		padding: 2px 0;
+		text-align: left;
+	}
+	.sub-head {
+		font-size: 18px;
+		font-weight: bolder;
+		margin: 0 auto
+	}
+	.icon-btn {
+		border: 0;
+		background-color: #02C7E5;
+		cursor: pointer;
+		height: 40px;
+		margin: 1px;
+		padding: 0;
+		text-align: center;
+		width: 40px;
+		&:hover {
+			background-color: #ffffff;
+			>.fa {
+				color: #02C7E5;
+			}
+		}
+	}
+	.fa {
+		font-size: 25px;
+		color: #ffffff;
+		padding: 0 5px;
+
+	}
+}
+
+.end-footer {
+	background-color: black;
+	color: #ffffff;
+	font-size: 15px;
+	line-height: 50px;
+	position: relative;
+	text-align: center;
+	top: 50%;
+}

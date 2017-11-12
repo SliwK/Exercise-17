@@ -1,0 +1,73 @@
+/* galeria z obrazkami */
+.gallery [class^="pic-"] {
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	overflow: hidden;
+	width: auto;
+}
+
+.pic-1 {
+	background-image: url(https://images.unsplash.com/photo-1506512534708-3737d46bffe1?w=1050);
+}
+
+.pic-2 {
+	background-image: url(https://images.unsplash.com/photo-1501493870936-9c2e41625521?w=1045);
+}
+
+.pic-3 {
+	background-image: url(https://images.unsplash.com/photo-1506440905961-0ab11f2ed5bc?w=1015);
+}
+
+.pic-4 {
+	background-image: url(https://images.unsplash.com/photo-1468956332313-2dcf1542828f?w=1050);
+}
+
+.pic-5 {
+	background-image: url(https://images.unsplash.com/photo-1501619090-18cfdb466558?w=1189);
+}
+.pic-6 {
+	background-image: url(https://images.unsplash.com/photo-1501619090-18cfdb466558?w=1189);
+}
+.pic-7 {
+	background-image: url(https://images.unsplash.com/photo-1469692422776-14abcfa4b525?w=1050);
+}
+
+.pic-8 {
+	background-image: url(https://images.unsplash.com/photo-1506512534708-3737d46bffe1?w=1050);
+}
+
+.pic-9 {
+	background-image: url(https://images.unsplash.com/photo-1501493870936-9c2e41625521?w=1045);
+}
+
+.layer {
+		.fa {
+			background-color: rgba(0,0,0,0.5);
+			color: rgba(0,0,0,0);
+			height: 100%;
+			padding: 0;
+			margin: 0;
+			visibility: hidden;
+			width: 100%;
+		}
+		.clips .fa {
+			background-color: grey;
+			border-radius: 5px;
+			color: black;
+			font-size: 15px;
+			line-height: 32px;
+			margin: 0 10px;
+			padding: 0;
+			position: relative;
+			top: -150px;
+			visibility: hidden;
+			width: 32px;
+		}
+		&:hover > .fa {
+			visibility: visible;
+		}
+		&:hover > .clips .fa {
+			visibility: visible;
+		}
+}

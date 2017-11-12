@@ -1,0 +1,37 @@
+/*Section: with picture */
+
+.with-picture {
+	.container {
+		margin: 50px auto;
+		max-width: 1200px;
+		width: 100%;
+	}
+	background-color: #797B7A;
+	color: #ffffff;
+	height: 350px;
+	overflow-y: hidden;
+	width: 100%;
+	h1 {
+		margin-left: 5px;
+		padding: 0;
+		text-transform: uppercase;
+	}
+	p {
+		margin: 5px;
+		padding: 0;
+	}
+	.container {
+		div {
+			margin: 0 auto;
+			text-align: left;
+			img {
+				border-top-left-radius: 15px;
+				border-top-right-radius: 15px;
+				height: auto;
+				margin-top: 20px;
+				max-width: 300px;
+				width:100%;
+			}
+		}
+	}
+}
